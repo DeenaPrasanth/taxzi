@@ -1,0 +1,73 @@
+
+<div class="container">
+  
+  <div class="card">
+      <div class="card-header card-header-shadow ">
+        <h3>Add New Vehicle</h3>
+      </div>
+      <div class="card-body">
+        <form [formGroup]="vehicleForm" class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Vehicle Number:</label>
+              <input type="text" formControlName="vehicleNumber" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Vehicle Type:</label>
+              <select formControlName="vehicleType" class="form-control">
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="hatchback">Hatchback</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Vehicle Model:</label>
+              <input type="text" formControlName="vehicleModel" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Seating Capacity:</label>
+              <input type="number" formControlName="seatingCapacity" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Price (per km):</label>
+              <input type="number" formControlName="pricePerKm" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Price (per min):</label>
+              <input type="number" formControlName="pricePerMin" class="form-control">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Minimum Fare (in $):</label>
+              <input type="number" formControlName="minimumFare" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Commission:</label>
+              <input type="number" formControlName="commission" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Passenger Cancellation (in minutes):</label>
+              <input type="number" formControlName="passengerCancellationTime" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Passenger Cancellation Charge:</label>
+              <input type="number" formControlName="passengerCancellationCharge" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Insurance Renewal Date:</label>
+              <input type="date" formControlName="insuranceRenewalDate" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Update Vehicle Photo:</label>
+              <input type="file" formControlName="vehiclePhoto" class="form-control-file">
+            </div>
+          </div>
+          <div class="form-group col-md-12 text-end">
+            <button type="submit" [disabled]="vehicleForm.invalid" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+  </div>

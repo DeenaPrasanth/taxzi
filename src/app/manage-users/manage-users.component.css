@@ -1,0 +1,33 @@
+.modal-dialog {
+    max-width: 300px;
+    height: 200px;
+}
+
+.modal-content {
+    animation: modalFade 0.3s ease-in-out;
+}
+
+.custom-text-size {
+
+    font-size: 15px;
+    list-style: none;
+    padding: 5px;
+
+}
+
+.custom-text-size :hover {
+
+    color: red;
+    font-size: 18px;
+}
+
+@keyframes modalFade {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

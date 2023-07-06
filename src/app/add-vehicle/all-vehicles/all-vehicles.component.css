@@ -1,0 +1,60 @@
+
+
+.card-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+                0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.btn-effect {
+    background-color: #007bff !important;
+    transition: transform 0.3s ease;
+}
+
+.btn-effect:hover {
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+}
+
+
+.search-area {
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-button i {
+    vertical-align: middle;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.search-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+}
+
+

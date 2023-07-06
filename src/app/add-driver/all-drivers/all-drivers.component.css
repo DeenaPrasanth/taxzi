@@ -1,0 +1,107 @@
+/* .container {
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+}
+
+.filter-input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.clear-filter-btn {
+    padding: 5px 10px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pagination-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-item {
+    margin-left: 5px;
+}
+
+.page-link {
+    padding: 6px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    background-color: #ccc;
+}
+
+.page-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.page-item.disabled .page-link {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.page-item.disabled .page-link:hover {
+    background-color: #f2f2f2;
+} */
+
+.card-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+                0 8px 16px rgba(0, 0, 0, 0.1);
+}

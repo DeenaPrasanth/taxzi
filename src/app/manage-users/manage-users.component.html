@@ -1,0 +1,122 @@
+<div class="container">
+
+    <div class="row d-flex">
+
+        <div class="col-md-9">
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Manage Users</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active text-success" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#">Inactive</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active"> <br>
+                            <h4>Active Users</h4>
+                            <div class="filter-interface">
+                                <!-- Filter interface content goes here -->
+                                <!-- For example, you can add filter input fields, dropdowns, etc. -->
+                                <input type="text"  placeholder="Filter by name" />
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table mt-2">
+                                    <thead>
+                                        <tr>
+                                            <th>S.No</th>
+                                            <th>Details</th>
+                                            <th>Wallets</th>
+                                            <th>Ratings</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let user of filteredUsers">
+                                            <td>{{ user.serialNo }}</td>
+                                            <td>{{ user.details }}</td>
+                                            <td>{{ user.wallets }}</td>
+                                            <td>{{ user.ratings }}</td>
+                                            <!-- Replace the existing <button> tag in the table with the following code -->
+                                            <td>
+                                                <button class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#userModal" (click)="setSelectedUser(user)">
+                                                    <i class="fa-solid fa-bars"></i>
+                                                </button>
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="pagination">
+                                <button class="btn btn-primary" [disabled]="currentPage === 1"
+                                    (click)="prevPage()">Prev</button>
+                                <span class="mx-3">{{ currentPage }}</span>
+                                <button class="btn btn-danger" [disabled]="currentPage === totalPages"
+                                    (click)="nextPage()">Next</button>
+                            </div>
+                        </div>
+                        <div class="tab-pane">
+                            <h4>Inactive Users</h4>
+                            <!-- Content for the Inactive tab goes here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="userModalLabel">User Actions</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li class="custom-text-size"><i class="fa-solid fa-eye mx-2"></i><a href="#">View User</a></li>
+                            <li class="custom-text-size"> <i class="fa-solid fa-user-lock mx-2"></i><a href="#">Block User</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer custom-text-size">
+                        <i class="fa-sharp fa-solid fa-trash mx-2"></i><a href="#">Delete User</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+        <div class="col-md-3">
+
+            <div class="card">
+                <div class="card-header" (click)="toggleCardBody()">
+                    User List
+                    <span class="dropdown-icon" [class.open]="showCardBody">
+                        <i class="fa fa-chevron-down"></i>
+                    </span>
+                </div>
+                <div class="card-body" *ngIf="showCardBody">
+                    <button class="btn">Active Users - <span class="text-danger">24</span> </button>
+                    <button class="btn">Block - <span class="text-danger">(0)</span></button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+

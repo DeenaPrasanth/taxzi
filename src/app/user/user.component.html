@@ -1,0 +1,629 @@
+<div class="content-wrapper">
+    <div class="navbar navbar-expand-md navbar-dark  navbar-static" style="background-color:#fff">
+    <!-- <div class="navbar-brand">
+        <a href="" class="d-inline-block">
+            <img src="http://34.201.253.146/taxi/public//storage/images/settings/UfslEPvcIjbp0F7Yj78dED2l4WGY4iTC1wVXkGoY.png" alt="">
+        </a>
+    </div> -->
+
+    <div class="d-md-none">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
+            <i class="icon-tree5"></i>
+        </button>
+        <button class="navbar-toggler sidebar-mobile-main-toggle" type="button">
+            <i class="icon-paragraph-justify3"></i>
+        </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-mobile">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="navbar-nav-link sidebar-control sidebar-main-toggle d-none d-md-block legitRipple" style="color:#000000">
+                    <i class="icon-paragraph-justify3"></i>
+                </a>
+            </li>
+        </ul>
+        <ul class=" ml-md-auto">
+            <li class="nav-item">
+                <form class="navbar-nav-link legitRipple" method="POST" action="http://34.201.253.146/taxi/public/logout">
+                    <input type="hidden" name="_token" value="V42bU63DzE7XvAYbDOHwbg1LarG1Xxh3b7JHSyxT">                            <span class="text-dark">
+                    <span class="font-weight-bold mb-0" id="time">05/07/2023 - 23:33:24</span>&nbsp;  
+                        super admin 
+                    </span>
+                        <button type="submit" class="btn legitRipple"><i class="icon-switch2"></i></button>
+                </form>
+            </li>
+        </ul>
+    </div>
+</div>
+    <!--content-->
+    
+<div class="content">
+
+<div class="card">
+<div class="card-header header-elements-inline">
+    <h5 class="card-title">Manage User</h5>
+    <div class="header-elements">
+        
+    </div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-9">
+    <div class="card">
+        <div class="card-header header-elements-inline">
+            <h6 class="card-title">User list</h6>
+            <div class="header-elements">
+                <div class="list-icons">
+                    <a class="list-icons-item" data-action="collapse"></a>
+                    <a class="list-icons-item" data-action="reload"></a>
+                    <a class="list-icons-item" data-action="remove"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <ul class="nav nav-tabs nav-tabs-highlight">
+                                         <li class="nav-item "><a href="#right-icon-tab1" class="nav-link active " data-toggle="tab"><i class="icon-user-check ml-2 text-success-800"></i><span class="text-success-400"> Active </span></a></li>
+                                                                 <li class="nav-item"><a href="#right-icon-tab2" class="nav-link" data-toggle="tab"><i class="icon-user-block ml-2 text-danger-800"></i> <span class="text-danger-800"> Inactive </span> </a></li>
+                                    </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="right-icon-tab1">
+                    <div id="roletable_wrapper" class="dataTables_wrapper dt-jqueryui no-footer"><div class="datatable-header"><div id="roletable_filter" class="dataTables_filter"><label><span>Filter:</span> <input type="search" class="" placeholder="Type to comman filter..." aria-controls="roletable"></label></div><div class="dt-buttons ui-buttonset"><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-print legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class="icon-printer position-left"></i> Print </span></a><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-excel buttons-html5 legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class="icon-file-excel position-left"></i> Excel</span></a><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-copy buttons-html5 legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class="icon-copy2 position-left"></i> Copy </span></a><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-pdf buttons-html5 legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class=" icon-file-pdf position-left"></i> Pdf </span></a><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-collection buttons-colvis btn btn-default btn-icon legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class="icon-three-bars"></i> <span class="caret"></span></span></a></div><div class="dataTables_length" id="roletable_length"><label><span>Show:</span> <select name="roletable_length" aria-controls="roletable" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div></div><div class="datatable-scroll-wrap"><table class="table datatable-button-print-columns1 table-bordered dataTable no-footer" id="roletable" role="grid" aria-describedby="roletable_info">
+                        <thead>
+                            <tr role="row"><th class="sorting ui-state-default sorting_asc" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="SL: activate to sort column descending"><div class="DataTables_sort_wrapper">SL<span class="DataTables_sort_icon css_right ui-icon ui-icon-triangle-1-n"></span></div></th><th class="sorting ui-state-default" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-label="Details: activate to sort column ascending"><div class="DataTables_sort_wrapper">Details<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="sorting ui-state-default" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-label="Wallet: activate to sort column ascending"><div class="DataTables_sort_wrapper">Wallet<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="sorting ui-state-default" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-label="Rating: activate to sort column ascending"><div class="DataTables_sort_wrapper">Rating<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="sorting ui-state-default" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending"><div class="DataTables_sort_wrapper">Action<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr>
+                        </thead>
+                        <tbody>
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                            <tr role="row" class="odd">
+                                    <td class="sorting_1">1</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#" class="btn bg-violet rounded-round btn-icon btn-sm legitRipple">
+                                                        <span class="letter-icon">A</span>
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/anu" class="text-default font-weight-semibold letter-icon-title">anu g
+                                                    <br>
+                                                    30576475
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td>﷼ 0 </td>
+                                    <td>
+                                        0 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/anu" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/anu`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/anu`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr><tr role="row" class="even">
+                                    <td class="sorting_1">2</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#">
+                                                        <img src="http://34.201.253.146/taxi/public//storage/images/profile/nV4epzB3viiCyzAR2aKaHV1iUi5x1w4nvnmjaKH6.png" class="rounded-circle" value="$user->profile_pic" width="32" height="32" alt="">
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/new" class="text-default font-weight-semibold letter-icon-title">new ios
+                                                    <br>
+                                                    9898989898
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td>₹ 0 </td>
+                                    <td>
+                                        4 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/new" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/new`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/new`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr><tr role="row" class="odd">
+                                    <td class="sorting_1">3</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#" class="btn bg-violet rounded-round btn-icon btn-sm legitRipple">
+                                                        <span class="letter-icon">D</span>
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/deena" class="text-default font-weight-semibold letter-icon-title">deena 
+                                                    <br>
+                                                    8883312213
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td> 0 </td>
+                                    <td>
+                                        0 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/deena" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/deena`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/deena`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr><tr role="row" class="even">
+                                    <td class="sorting_1">4</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#" class="btn bg-violet rounded-round btn-icon btn-sm legitRipple">
+                                                        <span class="letter-icon">J</span>
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/jakeee" class="text-default font-weight-semibold letter-icon-title">jakeee 
+                                                    <br>
+                                                    6379759392
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td> 0 </td>
+                                    <td>
+                                        0 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/jakeee" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/jakeee`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/jakeee`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr><tr role="row" class="odd">
+                                    <td class="sorting_1">5</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#">
+                                                        <img src="http://34.201.253.146/taxi/public//storage/images/profile/7KBWipuaYBWixTsHLRM0TCyKeeWR77Tqbb7AeEYR.jpg" class="rounded-circle" value="$user->profile_pic" width="32" height="32" alt="">
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/jkk" class="text-default font-weight-semibold letter-icon-title">jaiii jake
+                                                    <br>
+                                                    9842226521
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td>₹ 0 </td>
+                                    <td>
+                                        4 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/jkk" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/jkk`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/jkk`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr><tr role="row" class="even">
+                                    <td class="sorting_1">6</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#">
+                                                        <img src="http://34.201.253.146/taxi/public//storage/images/profile/Kb6jcVHUzKFQf1uWBBlJXeDbx7qZj045zS1h21Xa.png" class="rounded-circle" value="$user->profile_pic" width="32" height="32" alt="">
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/dharshan" class="text-default font-weight-semibold letter-icon-title">Msd .
+                                                    <br>
+                                                    3636363636
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td>₹ 0 </td>
+                                    <td>
+                                        4 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/dharshan" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/dharshan`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/dharshan`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr><tr role="row" class="odd">
+                                    <td class="sorting_1">7</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#" class="btn bg-violet rounded-round btn-icon btn-sm legitRipple">
+                                                        <span class="letter-icon">D</span>
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/deena-2" class="text-default font-weight-semibold letter-icon-title">deena deena
+                                                    <br>
+                                                    1212121212
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td>﷼ 0 </td>
+                                    <td>
+                                        0 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/deena-2" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/deena-2`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/deena-2`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr><tr role="row" class="even">
+                                    <td class="sorting_1">8</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#">
+                                                        <img src="http://34.201.253.146/taxi/public//storage/images/profile/ojq88g8X2bFo2qtufDYxthgrUu6zcWR3aa7wTgYC.png" class="rounded-circle" value="$user->profile_pic" width="32" height="32" alt="">
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/sheharin" class="text-default font-weight-semibold letter-icon-title">sheharin sheharin
+                                                    <br>
+                                                    50934360
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td>﷼ 0 </td>
+                                    <td>
+                                        0 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/sheharin" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/sheharin`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/sheharin`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr><tr role="row" class="odd">
+                                    <td class="sorting_1">9</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#" class="btn bg-violet rounded-round btn-icon btn-sm legitRipple">
+                                                        <span class="letter-icon">I</span>
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/iostest2" class="text-default font-weight-semibold letter-icon-title">IosTest2 Two
+                                                    <br>
+                                                    8608989232
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td>₹ 0 </td>
+                                    <td>
+                                        0 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/iostest2" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/iostest2`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/iostest2`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr><tr role="row" class="even">
+                                    <td class="sorting_1">10</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-3">
+                                                                                                            <a href="#" class="btn bg-violet rounded-round btn-icon btn-sm legitRipple">
+                                                        <span class="letter-icon">K</span>
+                                                    </a>
+                                                                                                    </div>
+                                            <div>
+                                                <a href="http://34.201.253.146/taxi/public/user-management-view/kkfv" class="text-default font-weight-semibold letter-icon-title">kkfv vvvvg
+                                                    <br>
+                                                    8830969181
+                                                </a>
+                                                <!--                                                             <div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Offline</div>
+                                                 -->
+                                            </div>
+                                        </div>                                            
+                                    </td>
+                                    <td>﷼ 0 </td>
+                                    <td>
+                                        0 <i style="color:#fdde00" class="icon-star-full2"></i>
+                                    </td>
+                                    <td>   
+                                        <a href="#" class="list-icons-item dropdown-toggle caret-0 btn bg-purple-400 btn-icon rounded-menu legitRipple" data-toggle="dropdown" aria-expanded="false"><i class="icon-menu7"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(16px, 19px, 0px);">
+                                                                                                  <a href="http://34.201.253.146/taxi/public/user-management-view/kkfv" class="dropdown-item"><i class="icon-eye"></i> View User</a>
+                                                                                                                                                                                                                    <a href="#" onclick="Javascript: return activeAction(`http://34.201.253.146/taxi/public/change-status-user-management/kkfv`)" class="dropdown-item"><i class="icon-user-block"></i>Block User</a>
+                                                                                                                                                                                                                <div class="dropdown-divider"></div>
+                                                <a href="#" onclick="Javascript: return deleteAction('$user->slug', `http://34.201.253.146/taxi/public/user-management-delete/kkfv`)" class="dropdown-item"><i class="icon-trash"></i> Delete User</a>
+                                              
+                                        
+                                        </div>       
+                                    </td>
+                                </tr></tbody>
+                    </table></div><div class="datatable-footer"><div class="dataTables_info" id="roletable_info" role="status" aria-live="polite">Showing 1 to 10 of 24 entries</div><div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_simple_numbers" id="roletable_paginate"><a class="fg-button ui-button ui-state-default previous ui-state-disabled legitRipple" aria-controls="roletable" data-dt-idx="0" tabindex="0" id="roletable_previous">←</a><span><a class="fg-button ui-button ui-state-default ui-state-disabled legitRipple" aria-controls="roletable" data-dt-idx="1" tabindex="0">1</a><a class="fg-button ui-button ui-state-default legitRipple" aria-controls="roletable" data-dt-idx="2" tabindex="0">2</a><a class="fg-button ui-button ui-state-default legitRipple" aria-controls="roletable" data-dt-idx="3" tabindex="0">3</a></span><a class="fg-button ui-button ui-state-default next legitRipple" aria-controls="roletable" data-dt-idx="4" tabindex="0" id="roletable_next">→</a></div></div></div>
+                </div>
+
+                <div class="tab-pane fade" id="right-icon-tab2">
+                    <div id="roletable_wrapper" class="dataTables_wrapper dt-jqueryui no-footer"><div class="datatable-header"><div id="roletable_filter" class="dataTables_filter"><label><span>Filter:</span> <input type="search" class="" placeholder="Type to comman filter..." aria-controls="roletable"></label></div><div class="dt-buttons ui-buttonset"><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-print legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class="icon-printer position-left"></i> Print </span></a><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-excel buttons-html5 legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class="icon-file-excel position-left"></i> Excel</span></a><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-copy buttons-html5 legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class="icon-copy2 position-left"></i> Copy </span></a><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-pdf buttons-html5 legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class=" icon-file-pdf position-left"></i> Pdf </span></a><a class="dt-button ui-button ui-state-default ui-button-text-only buttons-collection buttons-colvis btn btn-default btn-icon legitRipple" tabindex="0" aria-controls="roletable" href="#"><span class="ui-button-text"><i class="icon-three-bars"></i> <span class="caret"></span></span></a></div><div class="dataTables_length" id="roletable_length"><label><span>Show:</span> <select name="roletable_length" aria-controls="roletable" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label></div></div><div class="datatable-scroll-wrap"><table class="table datatable-button-print-columns1 table-bordered dataTable no-footer" id="roletable" role="grid" aria-describedby="roletable_info">
+                        <thead>
+                            <tr role="row"><th class="sorting ui-state-default sorting_asc" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="SL: activate to sort column descending"><div class="DataTables_sort_wrapper">SL<span class="DataTables_sort_icon css_right ui-icon ui-icon-triangle-1-n"></span></div></th><th class="sorting ui-state-default" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-label="Details: activate to sort column ascending"><div class="DataTables_sort_wrapper">Details<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="sorting ui-state-default" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-label="Rating: activate to sort column ascending"><div class="DataTables_sort_wrapper">Rating<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="sorting ui-state-default" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-label="Blocked Reson: activate to sort column ascending"><div class="DataTables_sort_wrapper">Blocked Reson<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="sorting ui-state-default" tabindex="0" aria-controls="roletable" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending"><div class="DataTables_sort_wrapper">Action<span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr>
+                        </thead>
+                        <tbody>
+                                                            <tr class="odd"><td valign="top" colspan="5" class="dataTables_empty">No data available in table</td></tr></tbody>
+                    </table></div><div class="datatable-footer"><div class="dataTables_info" id="roletable_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div><div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_simple_numbers" id="roletable_paginate"><a class="fg-button ui-button ui-state-default previous ui-state-disabled legitRipple" aria-controls="roletable" data-dt-idx="0" tabindex="0" id="roletable_previous">←</a><span></span><a class="fg-button ui-button ui-state-default next ui-state-disabled legitRipple" aria-controls="roletable" data-dt-idx="1" tabindex="0" id="roletable_next">→</a></div></div></div>
+                </div>
+
+              
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-3">
+    <div class="card">
+        <div class="card-header bg-transparent header-elements-inline">
+            <span class="card-title font-weight-semibold">User Details</span>
+            <div class="header-elements">
+                <div class="list-icons">
+                    <a class="list-icons-item" data-action="collapse"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <div class="row row-tile no-gutters shadow-0 border">
+                <div class="col-6">
+                    
+                    <button type="button" class="btn btn-light btn-block btn-float m-0 legitRipple">
+                        <i class=" icon-2x">24</i>
+                        <span> Active</span>
+                    </button>
+
+                    <!-- <button type="button" class="btn btn-light btn-block btn-float m-0 legitRipple">
+                        <i class="text-blue-400 icon-2x">0</i>
+                        <span>Online</span>
+                    </button> -->
+                </div>
+                
+                <div class="col-6">                            
+                    <button type="button" class="btn btn-light btn-block btn-float m-0 legitRipple">
+                        <i class="text-pink-400 icon-2x">0</i>
+                        <span>Blocked</span>
+                    </button>
+
+                    <!-- <button type="button" class="btn btn-light btn-block btn-float m-0 legitRipple">
+                        <i class=" text-success-400 icon-2x">24</i>
+                        <span>Offline</span>
+                    </button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="card">
+        <div class="card-header bg-transparent header-elements-inline">
+            <span class="card-title font-weight-semibold">Balance changes</span>
+            <div class="header-elements">
+                <span><i class="icon-arrow-down22 text-danger"></i> <span class="font-weight-semibold">25%</span></span>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <div class="chart-container">
+                <canvas id="canvas" height="280" width="600"></canvas>
+                
+            </div>
+        </div>
+    </div> -->
+</div>
+</div>
+</div>
+<!-- /horizontal form modal -->
+
+<script type="text/javascript">
+var i =1;
+
+</script>
+
+<script>
+var config = {
+    type: 'line',
+    data: {
+        labels: ['a','b','c'],
+        datasets: [{
+            label: 'BMW',
+            backgroundColor: "rgb(229,26,55,0.5)",
+            borderColor: "rgb(229,26,55,0.5)",
+            data: ['12','31','46'],
+            fill: false,
+
+        }, 
+        {
+            label: 'Audi',
+            fill: false,
+            backgroundColor: "rgb(0,0,0,0.5)" ,
+            borderColor: "rgb(0,0,0,0.5)",
+            data: ['32','40','53'],
+        },
+        {
+            label: 'Auto',
+            fill: false,
+            backgroundColor: "rgb(50,51,255,0.5)" ,
+            borderColor: "rgb(50,51,255,0.5)",
+            data: ['10','20','30'],
+        },
+        
+        ]
+    },
+    options: {
+        responsive: true,
+        title: {
+            display: true,
+            // text: 'Security Attack for past 7 Days'
+        },
+        legend: {
+            labels: {
+                usePointStyle: true
+            },
+                position: 'bottom',
+        },
+                                    
+        tooltips: {
+            mode: 'index',
+            intersect: false,
+        },
+        hover: {
+            mode: 'nearest',
+            intersect: true
+        },
+        scales: {
+            xAxes: [{
+                display: true,
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Days'
+                }
+            }],
+            yAxes: [{
+                display: true,
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Drivers based on Type'
+                },
+                suggestedMin: 10,
+                suggestedMax: 200
+            }]
+        }
+    }
+};
+
+                 
+window.onload = function() {
+var ctx = document.getElementById('canvas').getContext('2d');
+window.myLine = new Chart(ctx, config);
+
+};
+</script>
+
+
+
+    <!-- Footer -->
+<div class="navbar navbar-expand-lg navbar-light">
+        <div class="text-center d-lg-none w-100">
+            <button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
+                <i class="icon-unfold mr-2"></i>
+                Footer
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-footer">
+            <span class="navbar-text">
+            © 2022.
+                <!-- &copy; 2022. <a href="#"></a> by <a href="" target="_blank">nPlus Technologies</a> -->
+            </span>
+
+                            </div>
+    </div>
+    <!-- /footer -->
+</div>
